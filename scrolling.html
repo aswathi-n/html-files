@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scrolling</title>
+    <style>
+        html 
+        {
+            scroll-behavior: smooth;
+        }
+        #sec1
+        {
+            height: 600px;
+            background-color: blueviolet;
+        }
+        #sec2
+        {
+            height: 600px;
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>scrool smooth</h1>
+    <div id="sec1">
+        <h2>section 1</h2>
+        <a href="#sec2">click here to scroll to section 2</a>
+    </div>
+    <div id="sec2">
+        <h2>section 2</h2>
+        <a href="#sec1">click here to scroll to section 1</a>
+    </div>
+</body>
+</html>

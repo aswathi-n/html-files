@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        table,tr,td{
+            width: 1000px;
+            height: auto;
+            border: 2px solid;
+            border-collapse: collapse;
+            text-align:justify;
+            background-color: mediumseagreen;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr><td>Firstname</td><td><input type="text"></td></tr>
+            <tr><td>Lastname</td><td><input type="text"></td></tr>
+            <tr><td>Photo</td><td><input type="file" ></td></tr>
+            <tr><td>Date of Birth</td><td><input type="date"></td></tr>
+            <tr><td>Email</td><td><input type="email" required pattern="^a-zA-Z0-9+_*-]+@[a-zA-Z0-9.-]+$"></td></tr>
+            <tr><td>Mobile Number</td><td><input type="phone" pattern="^[0-9]{10}$"></td></tr>
+            <tr><td>Gender</td><td>Male<input type="radio" name="gender">Female <input type="radio" name="gender"></td></tr>
+            <tr><td>Address</td><td><input type="text"></td></tr>
+            <tr><td>City</td><td><input type="text" name="" id=""></td></tr>
+            <tr><td>Pincode</td><td><input type="text" name="" id=""></td></tr>
+            <tr><td>State</td><td><input type="text" name="" id=""></td></tr>
+            <tr><td>Country</td><td><select name="" id="">
+                <option value="">India</option>
+                <option value="">China</option>
+                <option value="">Japan</option>
+                <option value="">United states</option>
+                <option value="">Egypt</option>
+                <option value="">Russia</option>
+                <option value="">Germany</option>
+            </select></td></tr>
+            <tr><td>Hobbies</td><td><input type="checkbox" name="" id="">Singing<input type="checkbox" name="" id="">Drawing</td></tr>
+            <tr><td>Qualification</td><td>
+            <table style="border: 2px solid; border-collapse: collapse; width: auto;"><th>Slno</th><th>Examination</th><th>Board</th><th>Percentage</th><th>Year of passing</th></tr>
+            <tr><td>1</td><td>Class10</td><td><input type="text" name="" id=""></td><td><input type="text" name="" id=""></td><td><input type="text" name="" id=""></td></tr>
+            <tr><td>2</td><td>Class12</td><td><input type="text" name="" id=""></td><td><input type="text" name="" id=""></td><td><input type="text" name="" id=""></td></tr>
+            <tr><td>3</td><td>Degree</td><td><input type="text" name="" id=""></td><td><input type="text" name="" id=""></td><td><input type="text" name="" id=""></td></tr>
+            <tr><td>4</td><td>Postgraduation</td><td><input type="text" name="" id=""></td><td><input type="text" name="" id=""></td><td><input type="text" name="" id=""></td></tr>
+          </td> </table>
+           <tr><td>courses applied for</td><td><input type="radio" name="" id="">BSC<input type="radio" name="" id="">BCA<input type="radio" name="" id="">BA</td></tr>
+           <tr><td colspan="2px" style="text-align: center;"><input type="button" name="" id="" value="ok"><input type="button" name="" id="" value="reset"></td></tr>
+        </table>
+    </form>
+</body>
+</html>

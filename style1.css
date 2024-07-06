@@ -1,0 +1,18 @@
+h3,h2
+{
+
+    background-color:rgb(255, 189, 219);
+    color: brown;
+   
+}
+img
+{
+   background-image: url('https://www.2440media.com/sites/default/files/assets/images/blog/Why%20Web%20Design%20Is%20A%20Good%20Career%20Choice.jpg');
+   border-radius: 50%; 
+   float: right;
+}
+p
+{
+    color: aquamarine;
+    background-image: url('https://www.webdesign.org/img_articles/23462/previewImage');
+}

@@ -1,0 +1,11 @@
+div
+{
+    width: 350px;
+    height: 250px;
+    background-color: cadetblue;
+    color: brown;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
